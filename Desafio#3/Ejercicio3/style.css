@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Poppins:wght@400;700&display=swap');
+
+body{
+	font-family: 'Mulish', sans-seriffont-family: 'Mulish', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.contacto{
+	border: 1px solid #0a2ff1;
+
+}
+
+form{
+	width: 500px;
+	padding: 30px;
+
+}
+
+h1{
+font-weight: 700;
+color: #04146c;
+text-align: center;
+}
+
+
+::placeholder{
+	font-weight: 400;
+	color: #414166;
+}
+
+
+button{
+ font-weight:600;
+ background:#0a2ff1; 
+ border: none;
+ color: #ffffff;
+
+}
+
+button, input{
+	width: 500px;
+    height: 50px;
+    margin-bottom: 10px;
+    padding:10px;
+    box-sizing: border-box;   
+    border: 2px solid black; 
+
+}
+
+
+
+p {
+  font-weight: 400; 
+  color: #0a2ff1;
+  text-align: center;
+  font-size: 18px;
+}
