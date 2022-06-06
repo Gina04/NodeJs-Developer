@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+body{
+	font-family: 'Mulish', sans-seriffont-family: 'Mulish', sans-serif;
+	margin: auto;
+	width: 60%;
+	box-shadow: 20px 20px 50px grey;
+
+}
+
+header, section{
+	padding: 10px;
+}
+
+#titulo{
+	color: #04146c;
+	font-weight: 900;
+}
+
+.contenedor-box{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+
+
+
+}
+
+.contenedor-imagen img{
+		width: 55px;
+		margin-right: 15px;	
+}
+
+/*Comentario: Si bien el enunciado decia de
+	ponerle un border-left de 70px, sin esta 
+	propiedad se acercaba mas al desafio.
+*/
+.contenedor-texto{
+	width: 40%;
+	/*margin:0 0 0 70px;*/
+}
+
+
+
+.contenedor-texto h2{
+	color: #0a2ff1;
+	font-weight: 700;
+}
+
+
+.contenedor-texto p{
+	color:#04146c;
+	font-weight: 400;
+}
