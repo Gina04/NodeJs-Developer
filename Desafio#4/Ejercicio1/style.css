@@ -7,13 +7,13 @@ body, input, button{
 
 body{
 
-	background: url(./imagenes/M4-desafio1-fondo.png);
+	background: url("../imagenes/M4-desafio1-fondo.png");
 }
 .contenedor{
 	width: 50%;
 	margin: auto;
 	padding:30px;
-	background: url(./imagenes/M4-desafio1-fondo-form.png);
+	background: url("../imagenes/M4-desafio1-fondo-form.png");
  
 }
 
